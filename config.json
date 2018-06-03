@@ -1,0 +1,14 @@
+{
+	"keys" : ["output","port","bcrypt-cost", "db-connection-string","cookie","redis"],
+	"output":"output.txt",
+	"port":":8080",
+	"bcrypt-cost": 12,
+	"db-connection-string":"username:password@/test?parseTime=true",
+	"cookie":{
+		"hashKey": "p2s5v8y/B?E(H+MbQeThWmYq3t6w9z$C&F)J@NcRfUjXn2r4u7x!A%D*G-KaPdSg",
+		"blockKey":"9z$C&F)J@NcQfTjWnZr4u7x!A%D*G-Ka"
+	},
+	"redis": {
+        "address": "127.0.0.1:6379"
+    }
+}
